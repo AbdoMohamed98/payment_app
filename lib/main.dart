@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:payment_app/features/checkout_payment/presentation/views/mycartview.dart';
+import 'package:payment_app/features/paymentconfirmation/presentation/views/paymentconfirmationview.dart';
 import 'package:payment_app/features/paymentdetails/presentation/views/paymentdetailsview.dart';
 // <-- fix import
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const PaymentDetailsScreen(), // <-- FIXED
+      home: const Paymentconfirmationview(), // <-- FIXED
     );
   }
 }
